@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <title>XLSX converter</title>
+            <script
+                type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"
+            ></script>
+        </head>
+
+        <body>
+            <div>
+                <input type="file" id="file-upload" accept=".xls, .xlsx" />
+                <button type="button" id="upload-excel">Covert</button>
+                <pre id="jsonData"></pre>
+            </div>
+            <div id="json-container" style="width: auto; margin: 0 auto; border: 1px solid black">
+
+            </div>
+
+
+            <script type="text/javascript" src="converter.js"></script>
+        </body>
+    </html>
